@@ -1,0 +1,34 @@
+This is a list of columns our ml model considers
+ 
+Loan Amount - loan amount applied
+
+Funded Amount- loan amount funder
+
+Funded Amount Investor - loan amount approved by the investors
+
+Interest rate - interest rate (%) on loan
+
+Grade (0,1,2) - Grade by the bank
+
+Subgrade (1,2,3,4,5) - sub-grade by the bank
+
+Employment duration (0,1) - duration    (Mortgage/Rent/Own)
+Home ownership - Owner ship of home
+
+Verification status (0,1) - Income verification by the bank
+
+Loan title (6) - loan title provided
+
+Debit to income - ratio of representative's total monthly debt repayment divided by self reported monthly income excluding mortgage
+
+Open Account - number of open credit line in representative's credit line
+
+Revolving Utilities - amount of credit a representative is using relative to revolving_balance
+
+Total Accounts - total number of credit lines available in representatives credit line
+
+Initial List Status (0,1) - unique listing status of the loan - W(Waiting), F(Forwarded)
+
+Last week Pay - indicates how long (in weeks) a representative has paid EMI after batch enrolled
+
+Total Revolving Credit Limit - total revolving credit limit
